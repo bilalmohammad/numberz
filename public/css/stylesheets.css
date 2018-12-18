@@ -1,0 +1,133 @@
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+background: #151515;
+color: #fefefe;
+font-family: 'Tajawal', sans-serif;
+font-weight: normal;
+}
+.a{
+color: #ddd;
+text-decoration: none;	
+position: relative;
+top: -3.5px;
+padding-left: 5px;
+font-size: 14px;
+letter-spacing: 1px;
+transition: 2s width;
+}
+.a:hover{
+color: #ddd;
+text-decoration: underline;
+font-style: italic;
+}
+.sw_h3{
+color: #e15021;
+font-size: 15px;
+}
+h3{
+margin: 0px;
+padding: 0px;
+color: #e15021;
+font-size: 16px;
+text-transform: uppercase;
+/*font-family: 'Amatic SC', cursive;*/
+letter-spacing: 2px;
+}
+ul{
+margin: 0px;
+list-style: url(/imgs/list.svg);
+position: relative;
+top: 1px;
+}
+.header{
+border-top: 2px solid rgba(170,170,170,0.25);
+border-bottom: 2px solid rgba(170,170,170,0.25);
+padding: 10px 2px;	
+}
+.starwars_box{
+margin: 0 auto;
+width: 65%;
+}
+.starwarsfield{
+position: absolute;
+height: 100vh;
+top: 0;
+background-repeat: repeat-y;
+z-index: -1;
+}
+._bgleft{
+left: 0;
+width: 100px;
+background-position: right center;
+background-size: 100% auto;
+background-image: url('/imgs/bg_starswars.jpg');
+}
+._bgright{
+right: 0;
+width: 250px;
+background-position: left center;
+background-size: 100% auto;
+background-image: url('/imgs/bg_starswars2.jpg');
+}
+.logo {
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.logo img{
+width: 18%;	
+-webkit-filter: blur(0.3px); /* Safari 6.0 - 9.0 */
+filter: blur(0.3px);
+}
+.info_left {
+border-radius:3px; 
+width: 27%;
+float: left;
+padding: 15px;
+background: linear-gradient(145deg,#282727,#151515);
+box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+.info_right {
+width: 64.5%;
+float: right;
+border-radius:3px; 
+padding: 15px;
+background: linear-gradient(145deg,#282727,#151515);
+box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+.info_box{
+margin: 20px auto;
+opacity: 0.8;
+}
+._ul li {
+line-height: 30px;
+}
+hr{
+margin-top: 8px;
+margin-bottom: 8px;
+border: 0;
+background-image: -webkit-linear-gradient(left, #e15021 , rgba(225, 80, 33, 0.5), rgba(225, 80, 33, 0.2901960784313726) );
+background-image: -moz-linear-gradient(left, #e15021 , rgba(225, 80, 33, 0.5), rgba(225, 80, 33, 0.2901960784313726) );
+background-image: -ms-linear-gradient(left,  #e15021 , rgba(225, 80, 33, 0.5), rgba(225, 80, 33, 0.2901960784313726)  );
+background-image: -o-linear-gradient(left,  #e15021 , rgba(225, 80, 33, 0.5), rgba(225, 80, 33, 0.2901960784313726) );
+height: 1px;
+}
+._title {
+width: 110px;
+display: inline-block;
+color: #ddd;
+font-size: 14px;
+letter-spacing: 1px;
+}
+._details {
+line-height: 28px;
+padding: 0 18px;
+}
+._output{
+color: #fff;
+font-size: 14px;
+letter-spacing: 1px;
+text-transform: capitalize;
+}
