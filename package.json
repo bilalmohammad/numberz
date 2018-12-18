@@ -1,0 +1,19 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "Web Application for Clients",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/jasmine-xml-reporter/bin/jasmine.js --junitreport --output=shippable/testresults/",
+    "htmlreport":"node ./shippable/testresults/xmltohtml.js"
+  },
+  "author": "NITISH KUMAR",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "compression": "^1.7.0",
+    "ejs": "^2.3.2",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.13.1"
+  }
+}
